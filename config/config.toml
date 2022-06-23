@@ -1,0 +1,32 @@
+port = "8008"
+
+log_path = "./log/log.log"
+redis_network = "127.0.0.1:6379"
+redis_password = ""
+api_key = ""
+certFile = "./ssl.pem"
+keyFile = "./private.pem"
+
+power = 0.000004
+[ethereum]
+#network = "https://data-seed-prebsc-1-s1.binance.org:8545"
+network = "https://bsc-dataseed.binance.org/"
+sptAddress = "0x0a8B0D5900717E5Dd5822590DF0fAA5346c8F0c0"
+chainId = 56
+#keyStore = ""
+keyStore = ""
+keyStorePath = "0xc10B4Cd823f256C4E89Ef6266cBB84C7990Ad70b"
+bnblp = "0xb243C81A8aAd515AFC6566e51166dd54d3D4F616"
+#lp质押钱包地址和秘钥
+keyStorePathLP = ""
+[database]
+#db_host = "120.24.176.228"
+db_host = "80.209.240.8"
+db_port = "3306"
+db_schema = "spt"
+db_username = "root"
+db_password = ""
+
+#db_password = "123456"
+db_args = "charset=utf8mb4&parseTime=True&loc=Local"
+
